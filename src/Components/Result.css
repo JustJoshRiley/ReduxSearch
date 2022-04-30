@@ -1,10 +1,16 @@
 .Result {
-    width: 80%;
+    width: 100%;
     height: fit-content;
     background-color: rgba(128, 128, 128, 0.472);
     border-radius: 10px;
     margin-bottom: .5%;
-    padding: .5%;
+    padding-top: 1.5%;
+    padding-bottom: .5%;
+    padding-left: 2.5%;
+}
+
+.ResultLink{
+    overflow-wrap: break-word;
 }
 
 .Result > a {
@@ -15,4 +21,9 @@
 
 .Result > a:visited {
     color: rgb(195, 5, 195);
+}
+
+.Result > a > h3 {
+    color: rgb(63, 63, 63);
+    font-weight: bold;
 }

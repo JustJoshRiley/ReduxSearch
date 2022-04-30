@@ -21,9 +21,9 @@ function Results() {
                             src={result.pagemap && result.pagemap.cse_thumbnail? result.pagemap.cse_thumbnail[0].src : "null"}
                             
                         /> */}
-                        <small>{result.link}</small>
+                        <p className='ResultLink'>{result.link}</p>
                         <h4>{result.title}</h4>
-                        <h6>{result.snippet}</h6>
+                        <h3>{result.snippet}</h3>
                     </a>
                 </div>
             )
